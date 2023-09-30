@@ -9,8 +9,8 @@ export default function Sidebar(){
         <div>
             <i className='fa fa-bars icon-sidebar' onClick={handleStyle}></i>
             <div className={fix ? 'sidebar': 'sidebar-extend'}>
-                <Link className='remove-underline sidebar-content'>Posts</Link>
-                <Link className='remove-underline sidebar-content'>Drafts</Link>
+                <Link className='remove-underline sidebar-content'>Fetched</Link>
+                <Link className='remove-underline sidebar-content'>Published</Link>
                 <Link className='remove-underline sidebar-content settings-button'>Setting</Link>
             </div>
         </div>

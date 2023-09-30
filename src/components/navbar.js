@@ -5,7 +5,7 @@ export default function Nav(){
         <div className='navbar'>
             <nav className='nav-column'>
                 <img className='news-logo' src='./images/logo-no-background.png' ></img>
-                <h1 className='nav-heading'>Media D-App</h1>
+                <h1 className='nav-heading'>OPINIONECT</h1>
             </nav>
         </div>
     )

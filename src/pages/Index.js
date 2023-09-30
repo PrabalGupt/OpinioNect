@@ -2,7 +2,7 @@ import SignOutButton from '../components/signout-button'
 import Navbar from '../components/navbar.js'
 import LastPost from '../index_page/LastPost.js'
 import NewestPosts from '../index_page/NewestPosts.js'
-import CreateNewPost from '../components/CreateNewPost-button.js'
+import Comments from '../components/Comments.js'
 import Sidebar from '../components/Sidebar.js'
 export default function Index(){
     return(
@@ -15,7 +15,7 @@ export default function Index(){
                 <Sidebar/>
                 <div>
                     <LastPost/>
-                    <CreateNewPost/>
+                    <Comments/>
                 </div>
                 <NewestPosts/>
             </div>

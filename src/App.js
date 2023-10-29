@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom'
 export default function App(){
     const connect =async ()=> {
         if (typeof window.ethereum !== "undefined"){
-            await window.ethereum.request({ method:"eth_requestAccounts" });
+            await window.ethereum.request({method:"eth_requestAccounts"});
         }
     }
     return(
@@ -26,7 +26,7 @@ export default function App(){
             <div><Login/></div> */}
             <div><h1 className='heading'>OPINIONECT...</h1>
                 <h2 className='tagline'>LET'S GET YOUR VIEWS TO THE WORLD</h2>
-                <Link to="/Index" >
+                <Link to={connect.length? "/Index": "/"} >
                     <h3 className='get-started' onClick={connect}>Get Started...</h3>
                 </Link>
             </div>
